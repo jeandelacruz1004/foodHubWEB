@@ -3,6 +3,6 @@ from flask_login import logout_user
 import requests, json
 from datetime import timedelta
 
-@server.route('/')
+@server.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('landing.html')

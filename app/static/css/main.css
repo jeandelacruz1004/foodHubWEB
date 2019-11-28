@@ -1062,7 +1062,7 @@ header.sticky nav > div > ul > li span {font-size: 11px;}
 .restaurant-searching {
   float: left;
   width: 100%;
-  padding: 0 100px 100px;
+  padding: 100px 100px 100px;
 }
 .restaurant-searching-inner {
   display: inline-block;

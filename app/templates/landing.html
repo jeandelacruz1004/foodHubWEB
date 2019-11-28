@@ -2,19 +2,10 @@
 
 {% block css %}{% endblock css %}
 <body itemscope>
-        {% block main %}
+   
     <main>
-        <header class="stick">
-            <div class="topbar">
-                <div class="container">
-                    <div class="topbar-register">
-                        <a class="log-popup-btn" href="#" title="Login" itemprop="url">LOGIN</a> / <a class="sign-popup-btn" href="#" title="Register" itemprop="url">REGISTER</a>
-                    </div> 
-                     
-                </div>                
-            </div><!-- Topbar -->
-            
-        </header><!-- Header -->
+        
+        {% block main %}
         <section>
             <div class="center">
                 <div style="background-image: url(static/images/steak.jpg);"  class="fixed-bg"></div>
@@ -65,9 +56,9 @@
                 </div><!-- Restaurant Searching -->
             </div>
         </section>
-
         
         
+       
         <footer>
             <div class="block top-padd80 bottom-padd80 dark-bg">
                 <div class="container">
@@ -141,9 +132,7 @@
                                 <div class="col-md-12 col-sm-12 col-lg-12">
                                     <input class="brd-rd3" type="text" placeholder="Last Name "name="lastname">
                                 </div>
-                                <div class="col-md-12 col-sm-12 col-lg-12">
-                                 <input class="brd-rd3" type="text" placeholder="Gender "name="gender">
-                                </div>
+
                                 <div class="col-md-12 col-sm-12 col-lg-12">
                                     <input class="brd-rd3" type="text" placeholder="Contact Number"name="contact_number">
                                 </div>
